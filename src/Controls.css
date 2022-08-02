@@ -1,0 +1,45 @@
+.control-buttons {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    margin: 10px 0;
+}
+.speed-controls {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 75px auto;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.speed-controls:before {
+    content: "Playback Speed";
+    position: absolute;
+    top: -20px;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+}
+.speed-label {
+    font-size: 1.4rem;
+}
+.playback-meter {
+    margin: 10px 5px;
+}
+.time-slider {
+    width: 100%;
+    color: #fff;
+}
+button.icon-button {
+    place-content: center;
+    display: grid;
+    padding: 5px 0;
+    min-width: 48px;
+    font-size: 1.8rem;
+    user-select: none;
+    touch-action: manipulation;
+}
+.play-button {
+    place-content: center;
+    display: grid;
+}

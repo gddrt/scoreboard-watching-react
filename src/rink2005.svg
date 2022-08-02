@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="202px" height="87px" viewBox="0 0 202 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>rink</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M76,1 L76,86" id="Left-Blue-line" stroke="#1300FF" stroke-linecap="square"></path>
+        <path d="M126,1 L126,86" id="Right-blue-line" stroke="#1300FF" stroke-linecap="square"></path>
+        <circle id="Oval" stroke="#FF0000" stroke-width="0.2" cx="32" cy="23" r="15"></circle>
+        <circle id="Oval" stroke="#FF0000" stroke-width="0.2" cx="32" cy="66" r="15"></circle>
+        <circle id="Oval-Copy-4" stroke="#FF0000" stroke-width="0.2" cx="170" cy="23" r="15"></circle>
+        <circle id="Oval-Copy-3" stroke="#FF0000" stroke-width="0.2" cx="170" cy="66" r="15"></circle>
+        <path d="M101,1 L101,86" id="Center" stroke="#FF0000" stroke-linecap="square"></path>
+        <path d="M12,6.5 L12,81" id="Left-Goal-Line" stroke="#FF0000" stroke-width="0.2" stroke-linecap="square"></path>
+        <path d="M190,6.5 L190,81" id="Right-Goal-Line" stroke="#FF0000" stroke-width="0.2" stroke-linecap="square"></path>
+        <rect id="outline" stroke="#000000" x="0.5" y="0.5" width="201" height="86" rx="28"></rect>
+        <circle id="CENTER" stroke="#FF0000" stroke-width="0.2" cx="101" cy="44" r="15"></circle>
+        <circle id="Oval" fill="#FF0000" cx="121" cy="65" r="1"></circle>
+        <circle id="Oval" fill="#FF0000" cx="83" cy="65" r="1"></circle>
+        <circle id="Oval-Copy-2" fill="#FF0000" cx="121" cy="21" r="1"></circle>
+        <circle id="Oval-Copy" fill="#FF0000" cx="83" cy="21" r="1"></circle>
+        <circle id="Oval-Copy" fill="#FF0000" cx="32" cy="23" r="1"></circle>
+        <circle id="Oval-Copy" fill="#FF0000" cx="32" cy="66" r="1"></circle>
+        <circle id="Oval-Copy" fill="#FF0000" cx="170" cy="23" r="1"></circle>
+        <circle id="Oval-Copy" fill="#FF0000" cx="170" cy="66" r="1"></circle>
+        <polygon id="Rectangle" fill="#D8D8D8" points="12 40 18 40 18 48 12 48"></polygon>
+        <g id="goal-trapezoid" transform="translate(1.000000, 30.000000)" stroke="#FF0000">
+            <polygon id="Path" stroke-width="0.1" fill="#94DAFF" points="11 10 17 10 18 11 19 13 19 15 18 17 17 18 11 18"></polygon>
+            <path d="M11,4 L0,0" id="Line" stroke-width="0.2" stroke-linecap="square"></path>
+            <path d="M11,24 L0,28" id="Line" stroke-width="0.2" stroke-linecap="square"></path>
+        </g>
+        <g id="goal-trapezoid-copy" transform="translate(191.500000, 44.000000) scale(-1, 1) translate(-191.500000, -44.000000) translate(182.000000, 30.000000)" stroke="#FF0000">
+            <polygon id="Path" stroke-width="0.1" fill="#94DAFF" points="11 10 17 10 18 11 19 13 19 15 18 17 17 18 11 18"></polygon>
+            <path d="M11,4 L0,0" id="Line" stroke-width="0.2" stroke-linecap="square"></path>
+            <path d="M11,24 L0,28" id="Line" stroke-width="0.2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

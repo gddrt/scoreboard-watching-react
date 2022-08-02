@@ -1,0 +1,52 @@
+.game-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 60px;
+}
+
+.game-list--item {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    margin: 15px 0;
+    column-gap: 10px;
+    cursor: pointer;
+    text-align: left;
+
+    /* remove button styles */
+    padding: 0;
+    border: none;
+    background: none;
+
+    font-size: 1rem;
+}
+
+.game-list--item:hover {
+    background: none;
+}
+
+.game-list--item:not(.inactive) {
+    color: var(--fg-link);
+    transition: color .15s;
+}
+.game-list--item:not(.inactive):hover {
+    color: inherit;
+}
+.game-list--item.inactive {
+    color: var(--disabled-link);
+    cursor: not-allowed;
+}
+
+.game-list--date {
+    font-weight: 300;
+    text-align: right;
+}
+
+.game-list--date-picker--buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#date_picker {
+    padding: 5px;
+}

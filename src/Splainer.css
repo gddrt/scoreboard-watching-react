@@ -1,0 +1,25 @@
+.social-links {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0 40px;
+}
+
+.social-links a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #1a1a1a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .15);
+}
+
+.social-links a.twitter {
+    background: #1DA1F2;
+}
+
+.social-links svg {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}

@@ -1,0 +1,90 @@
+:root {
+    --disabled-link: #747474;
+    --fg: #1a1a1a;
+    --thin-border: 1px solid #1B264F;
+
+    --body-bg-dark: #10162E;
+    --body-bg: #1B264F;
+    --body-alt: #274690;
+    --body-hl: #576CA8;
+    --fg-dark: #302B27;
+    --fg-light: #e4e5ea;
+    --fg-hl: #fff;
+    --fg-link: #E9D95B;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: var(--body-bg);
+    color: var(--fg-light);
+}
+
+body {
+    margin: 15px;
+    overscroll-behavior: none;
+}
+
+main {
+    margin: auto;
+    max-width: 800px;
+    padding-bottom: 80px;
+}
+h1, h2, h3 {
+    color: var(--fg-hl);
+}
+
+a, .button-link {
+    color: var(--fg-link);
+    transition: color .25s;
+}
+a:hover, .button-link:hover {
+    color: var(--fg-light);
+}
+
+button {
+    cursor: pointer;
+    touch-action: manipulation;
+    appearance: none;
+    color: inherit;
+    font-family: sans-serif;
+}
+
+button.button-link {
+    background: unset;
+    border: unset;
+}
+
+button:not(.button-link) {
+    background: var(--body-bg-dark);
+    border: 1px solid rgba(255, 255, 255, .2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:not(.button-link):hover,
+button:not(.button-link):focus {
+    background: var(--body-alt);
+    border-color: white;
+}
+
+button.disabled:not(.button-link) {
+    cursor: not-allowed;
+    color: #aaa;
+    background: rgba(77, 77, 77, 0.5);
+    border-color: rgba(77, 77, 77, .8);
+}
+
+
+datalist {
+    display: flex;
+    justify-content: space-between;
+}
+datalist option {
+    width: 40px;
+    text-align: center;
+}
+
+.playback-buttons {
+    text-align: center;
+}
