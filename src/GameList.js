@@ -209,7 +209,7 @@ class GameListItem extends React.Component {
             <li>
                 <button className={cn} onClick={this.handleClick}>
                 <span className="game-list--date">{this.formatLocaleTime()}</span>
-                <span className="game-list--label">{this.props.home} vs. {this.props.away} {this.props.gameLabel ? ' (' + this.props.gameLabel + ')' : ''}</span>
+                <span className="game-list--label">{this.props.gamePk.toString().match(/^\d{4}(\d{2})/)[1] === "01" && '(Preseason) '} {this.props.home} vs. {this.props.away} {this.props.gameLabel ? ' (' + this.props.gameLabel + ')' : ''}</span>
                 </button>
             </li>
         )
