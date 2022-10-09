@@ -413,14 +413,14 @@ class GamePlayer extends React.Component {
     }
 
     componentDidMount() {
-        // If a game is specified in the hash, load that game immediately
-        // Then remove the hash from the address bar
-        const hashMatch = window.location.hash?.match(/^#game:(\d{10})/)
-        if (hashMatch) {
-            let curUrl = new URL(window.location.href);
-            curUrl.hash = '';
-            window.history.replaceState({}, '', curUrl);
-            this.downloadGame(hashMatch[1]);
+        // If a game is specified in the query, load the game immediately
+        // Then remove the query string from the bar
+        const curUrl = new URL(window.location.href);
+        const gameId = curUrl.searchParams.get('game');
+        if (gameId) {
+            curUrl.search = '';
+            window.history.replaceState({}, '', curUrl.toString());
+            this.downloadGame(gameId);
         }
     }
 

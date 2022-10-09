@@ -60,8 +60,7 @@ class Scoreboard extends React.Component {
 
     copyLink() {
         const newUrl = new URL(window.location.href);
-        console.log(this.props.game)
-        newUrl.hash = 'game:' + this.props.game?.gamePk?.toString();
+        newUrl.search = '?game=' + this.props.game?.gamePk?.toString();
         window.navigator.clipboard.writeText(newUrl.toString());
         this.setState({
             copyCooldown: true
